@@ -17,6 +17,12 @@ $ yarn start
 
 # generate static project
 $ yarn run generate
+
+$ build dockerfile example
+gcloud builds submit --project=XXXXXX --tag gcr.io/firebase-project-id/helloworld
+
+$ image deploy to cloud-run
+gcloud beta run deploy --project=XXXXXX --image gcr.io/firebase-project-id/helloworld
 ```
 
 For detailed explanation on how things work, checkout [Nuxt.js docs](https://nuxtjs.org).
