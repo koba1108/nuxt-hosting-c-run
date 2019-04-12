@@ -86,3 +86,4 @@ sw.*
 # ykoba
 .idea
 yarn.lock
+.firebase
