@@ -1,0 +1,19 @@
+{
+  "hosting": {
+    "public": "dist",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ],
+    "rewrites": [
+      {
+        "source": "/helloworld",
+        "run": {
+          "serviceId": "helloworld",
+          "region": "us-central1"
+        }
+      }
+    ]
+  }
+}

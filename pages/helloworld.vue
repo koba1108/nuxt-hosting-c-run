@@ -6,14 +6,14 @@
         nuxt-hosting-c-run
       </h1>
       <h2 class="subtitle">
-        My scrumtrulescent Nuxt.js project
+        Hello world
       </h2>
       <div class="links">
         <nuxt-link
           class="button--green"
-          to="/helloworld"
+          to="/"
         >
-          Hello World
+          Index
         </nuxt-link>
       </div>
     </div>
