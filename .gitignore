@@ -87,3 +87,4 @@ sw.*
 .idea
 yarn.lock
 .firebase
+.DS_Store
